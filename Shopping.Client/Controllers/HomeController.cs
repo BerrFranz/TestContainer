@@ -22,6 +22,7 @@ namespace Shopping.Client.Controllers
 
         public IActionResult Index()
         {
+            string Dummy = "Hallo";
             return View(ProductContext.Products);
         }
 
